@@ -7,5 +7,5 @@ export const initSocket = async () => {
         timeout: 10000,
         transports: ['websocket'],
     };
-    return io("", options);
+    return io("https://realtime-code-editor-server.vercel.app/", options);
 }
