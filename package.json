@@ -5,8 +5,11 @@
     "process": "^0.11.10",
     "socket.io": "^4.7.5"
   },
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server/server.js",
+    "build":"npm install"
+
   },
   "type": "module"
 }
